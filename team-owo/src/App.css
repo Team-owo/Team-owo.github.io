@@ -1,6 +1,21 @@
 .Team{
   font-family: 'owo';
 }
+.owo{
+  overflow: hidden;
+  background: #EAEAEA;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  font-size: 10px;
+  color: #646464;
+} 
+html, body {
+  margin: 0; 
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
 .menu{
   
   font-family: 'owo';
@@ -8,30 +23,19 @@
   text-align: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
   font-size: 10px;
   color: #646464;
 }
-.owo{
-  overflow: hidden;
-  background: #EAEAEA;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-  font-size: 10px;
-  color: #646464;
-} 
 .menubar{
   flex-direction: column;
   z-index: 1;
   position: absolute;
   background-color: #000000c7;
   width: 100%;
-  height: 11%;
+  height: 10%;
   box-shadow: 0 1px 5px #000000;
 }
-.into{
+.into{ 
   font-family: 'owo';
   z-index: 1;
   position: absolute;
@@ -48,7 +52,7 @@
 	flex-wrap: wrap;
   position: absolute;
   display: flex;
-  height: inherit;
+  height: initial;
   top: 50%;
 }
 .project{
@@ -103,10 +107,10 @@
 .boxes{
   z-index: 1;
   position: absolute;
-  top: 11%;
+  top: 10%;
   width: 100%;
-  height: 1420px;
-  background-color: #00000036;
+  height: 90%;
+  background-color: #00000036; 
 
 }
 .talk{
