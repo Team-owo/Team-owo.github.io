@@ -12,10 +12,13 @@ class App extends React.Component<{history: any}> {
     width: '640',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
+      autoplay: 0,
       controls: 0,
     },
   };
+  const play={
+      padding: "10px 120px 10px 120px"
+  }
   return (
     <div className="Team">
       <header className="owo">
@@ -30,6 +33,7 @@ class App extends React.Component<{history: any}> {
         <img src={talk} alt="talk" className="talk"/>
         <span className="boxes"></span>
         <YouTube videoId={videoID} opts={opts} className="DDANG"/>
+        <iframe src="https://discord.com/widget?id=670805809760043018&theme=dark" style={{position: 'absolute',top:600, right: 50, zIndex:1}} width="350" height="500" frameBorder="0" ></iframe>
         <p className="into">Team.owo는 마인크래프트의 프로젝트를 짜고 있습니다..</p>
         <div className="projects">
           <div className="project">
