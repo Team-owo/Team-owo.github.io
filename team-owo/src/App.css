@@ -2,34 +2,193 @@
   font-family: 'owo';
 }
 .menu{
+  
   font-family: 'owo';
   display: flex;
+  text-align: center;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
   font-size: 10px;
-  color: #f5f5f5;
+  color: #646464;
 }
 .owo{
-  background: #a5d1fa;
+  background: #EAEAEA;
   display: flex;
   align-items: center;
   flex-direction: column;
   min-height: 100vh;
   font-size: 10px;
-  color: #f5f5f5;
-}
-
+  color: #646464;
+} 
 .menubar{
+  flex-direction: column;
   z-index: 1;
   position: absolute;
-  background-color: #333a498c;
-  width: 1920px;
-  height: 100px;
+  background-color: #000000c7;
+  width: 100%;
+  height: 11%;
   box-shadow: 0 1px 5px #000000;
+}
+.into{
+  font-family: 'owo';
+  z-index: 1;
+  position: absolute;
+  top: 15%;
+  font-weight: bold;
+  font-size: 35px;
+  animation: fadein 3s;
+  color: #ffffff;
+  text-shadow: 0 5px 15px #000000;
+
+}
+
+.projects {
+	flex-wrap: wrap;
+  position: absolute;
+  display: flex;
+  height: inherit;
+  top: 50%;
+}
+.project{
+  animation: fadein 3s;
+  z-index: 1;
+  display: flex;
+  overflow: hidden;
+  margin: 0.5rem 0.5rem;
+  min-width: 20rem;
+  border-radius: 10px;
+  background-color: #bbbbbb;
+  align-self: flex-start;
+}
+.project img{
+  height: 150px;
+}
+.project div.info{  
+  display: flex;
+  max-width: 26rem;
+  justify-content: center;
+  flex-direction: row;
+  padding: 1rem 1rem;
+}
+.project div.title{
+  margin-top: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0rem 1rem 0rem 0rem;
+}
+.project div.description{
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+.DDANG{
+  z-index: 1;
+  position:absolute;
+  top: 70%;
+  left: 35%;
 }
 
 
+.boxes{
+  z-index: 1;
+  position: absolute;
+  top: 11%;
+  width: 100%;
+  height: 135%;
+  background-color: #00000036;
+
+}
+.talk{
+  z-index: 1;
+  position: absolute;
+  top: 12%;
+  filter:blur(5px);
+  width: 100%;
+}
+.logo{
+  
+  border-radius: 7px;
+  z-index: 2;
+  position: absolute;
+  height: 64px;
+  width: 64px;
+  top: 2%;
+}
+
+.logo:hover{ cursor: pointer;}
+.complete{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  position: absolute;
+  top: 4%;
+  right: 80%;
+  color: #ffffffaf;
+}
+
+.complete:link {text-decoration: none; color: #e6e6e67a;}
+.complete:hover {text-decoration: none; color: #ffffffd8;}
+
+
+
+.projecting{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  position: absolute;
+  top: 4%;
+  right: 15%;
+  color: #ffffffaf;
+}
+.projecting:link {text-decoration: none; color: #e6e6e67a;}
+.projecting:hover {text-decoration: none; color: #ffffffd8;}
+
+.outline{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  position: absolute;
+  top: 4%;
+  right: 60%;
+  color: #ffffffaf;
+}
+
+.outline:link {text-decoration: none; color: #e6e6e67a;}
+.outline:hover {text-decoration: none; color: #ffffffd8;}
+
+.about_underline{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  position: absolute;
+  top: 4%;
+  right: 40%;
+  color: #ffffffaf;
+}
+
+.about_underline:link {text-decoration: underline; color: #e6e6e67a;}
+.about_underline:hover {text-decoration: underline; color: #ffffffd8;}
+
+.about{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  position: absolute;
+  top: 4%;
+  right: 40%;
+  color: #ffffffaf;
+}
+
+.about:link {text-decoration: none; color: #e6e6e67a;}
+.about:hover {text-decoration: none; color: #ffffffd8;}
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
 @font-face {
   font-family: 'owo';
   src: url('./font/AppleSDGothicNeoB.ttf');
