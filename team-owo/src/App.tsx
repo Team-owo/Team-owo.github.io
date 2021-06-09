@@ -47,7 +47,8 @@ class App extends React.Component<{history: any}> {
               </div>
             </div>
           </div>
-          {/* <YouTube videoId={videoID} opts={opts} className="DDANG"/> */}
+          <YouTube videoId={videoID} opts={opts} className="DDANG"/>
+          <p className="DDANG_comment">이것은 홍보\광고 가 아닙니다!</p>
           
           <iframe src="https://discord.com/widget?id=670805809760043018&theme=dark" title="discord" className="discord"></iframe>
       </div>

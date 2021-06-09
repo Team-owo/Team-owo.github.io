@@ -112,7 +112,7 @@ html, body {
   font-size: 35px;
   animation: fadein 3s;
   color: #ffffff;
-  text-shadow: 0 5px 15px #000000;
+  text-shadow: 0 5px 15px #000000a1;
 
 }
 
@@ -156,8 +156,17 @@ html, body {
 .DDANG{
   z-index: 1;
   position:absolute;
-  top: 70%;
+  top: 100%;
   left: 35%;
+}
+.DDANG_comment{
+  
+  z-index: 1;
+  position:absolute;
+  font-size: 15px;
+  top: 95%;
+  left: 50%; 
+  transform:translateX(-50%);
 }
 .discord{
   animation: fadein 3s;
