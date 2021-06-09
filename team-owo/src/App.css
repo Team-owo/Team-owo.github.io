@@ -111,7 +111,7 @@ html, body {
   font-weight: bold;
   font-size: 35px;
   animation: fadein 3s;
-  color: #ffffff;
+  color: #000000c7;
   text-shadow: 0 5px 15px #000000a1;
 
 }
@@ -121,7 +121,7 @@ html, body {
 	flex-wrap: wrap;
   align-content: space-around;
   position: relative;
-  top: 500px;
+  top: 400px;
   flex-direction: column;
 }
 .project{

@@ -19,11 +19,7 @@ class App extends React.Component<{history: any}> {
       <div className="Team-owo">
           <div className="menu">
             <div className="content">
-              <Link className="complete" to="/complete">완료된 프로젝트</Link>
-              <Link className="outline" to="/outline">개요</Link>
               <img onClick={() => { this.props.history.push('/') }} src={owo} alt="Team.owo" className="logo"/>
-              <Link className="about" to="/about">소개</Link>
-              <Link className="projecting" to="/projecting">진행중인 프로젝트</Link>
             </div>
           </div>
           <p className="into">Team.owo는 마인크래프트의 프로젝트를 짜고 있습니다..</p>
