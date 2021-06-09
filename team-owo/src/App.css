@@ -1,42 +1,109 @@
-.Team{
-  font-family: 'owo';
-}
-.owo{
-  overflow: hidden;
-  background: #EAEAEA;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  font-size: 10px;
+
+.Team-owo{
   color: #646464;
 } 
 html, body {
+  background: #EAEAEA;
   margin: 0; 
   padding: 0;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
+  font-family: 'owo';
+  font-size: 10px;
 }
 .menu{
-  
-  font-family: 'owo';
+  color: #646464;
+  background-color: #000000c7;
+  box-shadow: 0 1px 5px #000000;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+
+.content{
+  height: 0;
+  position: absolute;
+  top: 50%;
+  min-width: 100%;
   display: flex;
   text-align: center;
   align-items: center;
-  flex-direction: column;
-  font-size: 10px;
-  color: #646464;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  flex-wrap: nowrap;
 }
-.menubar{
-  flex-direction: column;
+.logo{
+  
+  border-radius: 7px;
+  z-index: 2;
+  height: 64px;
+  width: 64px;
+}
+
+.logo:hover{ cursor: pointer;}
+.complete{
+  text-shadow: 0 2px 20px #00000050;
   z-index: 1;
-  position: absolute;
-  background-color: #000000c7;
-  width: 100%;
-  height: 10%;
-  box-shadow: 0 1px 5px #000000;
+  font-size: 18px;
+  color: #ffffffaf;
 }
+
+.complete:link {text-decoration: none; color: #e6e6e67a;}
+.complete:hover {text-decoration: none; color: #ffffffd8;}
+
+
+
+.projecting{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  color: #ffffffaf;
+}
+.projecting:link {text-decoration: none; color: #e6e6e67a;}
+.projecting:hover {text-decoration: none; color: #ffffffd8;}
+
+.outline{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  color: #ffffffaf;
+}
+
+.outline:link {text-decoration: none; color: #e6e6e67a;}
+.outline:hover {text-decoration: none; color: #ffffffd8;}
+
+.about_underline{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  color: #ffffffaf;
+}
+
+.about_underline:link {text-decoration: underline; color: #e6e6e67a;}
+.about_underline:hover {text-decoration: underline; color: #ffffffd8;}
+
+.about{
+  text-shadow: 0 2px 20px #00000050;
+  z-index: 1;
+  font-size: 18px;
+  color: #ffffffaf;
+}
+
+.about:link {text-decoration: none; color: #e6e6e67a;}
+.about:hover {text-decoration: none; color: #ffffffd8;}
+
+
+
+
+
+
+
+
 .into{ 
-  font-family: 'owo';
+  right: 50%;
   z-index: 1;
   position: absolute;
   top: 15%;
@@ -96,106 +163,13 @@ html, body {
   z-index: 1;
   position: absolute;
   top: 90%;
-  right: 3%;
+  left: 81%;
   box-shadow: 0 1px 5px #000000;
   border-radius: 5px;
   width: 350px;
   height: 500px;
   border: 0;
 }
-
-.boxes{
-  z-index: 1;
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  height: 90%;
-  background-color: #00000036; 
-
-}
-.talk{
-  z-index: 1;
-  position: absolute;
-  top: 12%;
-  filter:blur(5px);
-  width: 100%;
-}
-.logo{
-  
-  border-radius: 7px;
-  z-index: 2;
-  position: absolute;
-  height: 64px;
-  width: 64px;
-  top: 2%;
-}
-
-.logo:hover{ cursor: pointer;}
-.complete{
-  text-shadow: 0 2px 20px #00000050;
-  z-index: 1;
-  font-size: 18px;
-  position: absolute;
-  top: 4%;
-  right: 80%;
-  color: #ffffffaf;
-}
-
-.complete:link {text-decoration: none; color: #e6e6e67a;}
-.complete:hover {text-decoration: none; color: #ffffffd8;}
-
-
-
-.projecting{
-  text-shadow: 0 2px 20px #00000050;
-  z-index: 1;
-  font-size: 18px;
-  position: absolute;
-  top: 4%;
-  right: 15%;
-  color: #ffffffaf;
-}
-.projecting:link {text-decoration: none; color: #e6e6e67a;}
-.projecting:hover {text-decoration: none; color: #ffffffd8;}
-
-.outline{
-  text-shadow: 0 2px 20px #00000050;
-  z-index: 1;
-  font-size: 18px;
-  position: absolute;
-  top: 4%;
-  right: 60%;
-  color: #ffffffaf;
-}
-
-.outline:link {text-decoration: none; color: #e6e6e67a;}
-.outline:hover {text-decoration: none; color: #ffffffd8;}
-
-.about_underline{
-  text-shadow: 0 2px 20px #00000050;
-  z-index: 1;
-  font-size: 18px;
-  position: absolute;
-  top: 4%;
-  right: 40%;
-  color: #ffffffaf;
-}
-
-.about_underline:link {text-decoration: underline; color: #e6e6e67a;}
-.about_underline:hover {text-decoration: underline; color: #ffffffd8;}
-
-.about{
-  text-shadow: 0 2px 20px #00000050;
-  z-index: 1;
-  font-size: 18px;
-  position: absolute;
-  top: 4%;
-  right: 40%;
-  color: #ffffffaf;
-}
-
-.about:link {text-decoration: none; color: #e6e6e67a;}
-.about:hover {text-decoration: none; color: #ffffffd8;}
 @keyframes fadein {
   from {
       opacity: 0;
