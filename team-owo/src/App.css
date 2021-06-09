@@ -174,7 +174,7 @@ html, body {
   z-index: 1;
   position: absolute;
   top: 1100px;
-  left: 1750px;
+  right: 2.5vh;
   box-shadow: 0 1px 5px #000000;
   border-radius: 5px;
   width: 350px;
