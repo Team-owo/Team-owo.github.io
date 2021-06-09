@@ -103,11 +103,11 @@ html, body {
 
 
 .into{
-  justify-content: space-around;
-  text-align: center;
   z-index: 1;
   position: absolute;
   top: 15%;
+  left:50%; 
+  transform:translateX(-50%);
   font-weight: bold;
   font-size: 35px;
   animation: fadein 3s;
@@ -117,12 +117,11 @@ html, body {
 }
 
 .projects {
-  justify-content: center;
-  align-items: center;
   display: flex;
 	flex-wrap: wrap;
-  height: inherit;
-  width: inherit;
+  align-content: space-around;
+  position: relative;
+  top: 500px;
   flex-direction: column;
 }
 .project{
@@ -130,7 +129,7 @@ html, body {
   z-index: 1;
   display: flex;
   overflow: hidden;
-  margin: 5rem 1rem;
+  margin: 2.5rem 1rem;
   min-width: 80rem;
   border-radius: 10px;
   background-color: #bbbbbb;
@@ -152,7 +151,7 @@ html, body {
 }
 .project div.description{
   font-weight: 300;
-  font-size: 12px;
+  font-size: 13.5px;
 }
 .DDANG{
   z-index: 1;
@@ -161,9 +160,10 @@ html, body {
   left: 35%;
 }
 .discord{
+  animation: fadein 3s;
   z-index: 1;
   position: absolute;
-  top: 90%;
+  top: 98%;
   left: 81%;
   box-shadow: 0 1px 5px #000000;
   border-radius: 5px;
