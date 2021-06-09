@@ -30,18 +30,29 @@ class App extends React.Component<{history: any}> {
               <Link className="projecting" to="/projecting">진행중인 프로젝트</Link>
             </div>
           </div>
-          {/* <YouTube videoId={videoID} opts={opts} className="DDANG"/> */}
-          <iframe src="https://discord.com/widget?id=670805809760043018&theme=dark" className="discord">a</iframe>
           <p className="into">Team.owo는 마인크래프트의 프로젝트를 짜고 있습니다..</p>
+          <div className="projects">
+            <div className="project">
+              <img src={owo} alt="Team.owo"/>
+              <div className="info">
+                <div className="title">Ruins</div>
+                <div className="description">땅과 빈스가 만들고 있는 루인스. 대충 긴글 테스트를 위한 문장임 아주 쓸데 없는 문장이고 루인스를 언제 완성 시킬지 고민이다 언제쯤 완성 될까? 가나다라마바사아자차카타파 철수책상은 철책상이고 내가 그린 기린그림은 너가 그린 기린그림보다 목이 더 긴 기린그림이다</div>
+              </div>
+            </div>
+            <div className="project">
+              <img src={owo} alt="Team.owo"/>         
+              <div className="info">
+                <div className="title">Agora</div>
+                <div className="description">땅과 빈스가 만들고 있는 아고라, 특히 빈스가 아고라에 대해서 의문을 품고 있다 노잼이라고 보이는듯 하나 땅은 의지가 매우 충만해보인다.</div>
+              </div>
+            </div>
+          </div>
+          {/* <YouTube videoId={videoID} opts={opts} className="DDANG"/> */}
+          
+          <iframe src="https://discord.com/widget?id=670805809760043018&theme=dark" title="discord" className="discord"></iframe>
       </div>
     );
   }
 }
 
 export default App;
-            // <div className="project">
-            //   <img src={owo} alt="Team.owo"/>
-            //   <div className="info">
-            //     <div className="title">Agora</div>
-            //    <div className="description">땅과 빈스가 만들고 있는 아고라, 특히 빈스가 아고라에 대해서 의문을 품고 있다 노잼이라고 보이는듯 하나 땅은 의지가 매우 충만해보인다.</div>
-            //   </div>

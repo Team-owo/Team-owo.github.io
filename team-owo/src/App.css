@@ -102,8 +102,9 @@ html, body {
 
 
 
-.into{ 
-  right: 50%;
+.into{
+  justify-content: space-around;
+  text-align: center;
   z-index: 1;
   position: absolute;
   top: 15%;
@@ -116,42 +117,42 @@ html, body {
 }
 
 .projects {
-	flex-wrap: wrap;
-  position: absolute;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  height: initial;
-  top: 50%;
+	flex-wrap: wrap;
+  height: inherit;
+  width: inherit;
+  flex-direction: column;
 }
 .project{
   animation: fadein 3s;
   z-index: 1;
   display: flex;
   overflow: hidden;
-  margin: 0.5rem 0.5rem;
-  min-width: 20rem;
+  margin: 5rem 1rem;
+  min-width: 80rem;
   border-radius: 10px;
   background-color: #bbbbbb;
-  align-self: flex-start;
 }
 .project img{
   height: 150px;
 }
 .project div.info{  
   display: flex;
-  max-width: 26rem;
-  justify-content: center;
+  max-width: 70rem;
   flex-direction: row;
   padding: 1rem 1rem;
 }
 .project div.title{
-  margin-top: 2.5rem;
-  font-size: 1.25rem;
+  margin-top: 5rem;
+  font-size: 18px;
   font-weight: bold;
   padding: 0rem 1rem 0rem 0rem;
 }
 .project div.description{
   font-weight: 300;
-  font-size: 0.85rem;
+  font-size: 12px;
 }
 .DDANG{
   z-index: 1;
