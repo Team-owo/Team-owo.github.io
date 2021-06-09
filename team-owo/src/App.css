@@ -105,7 +105,7 @@ html, body {
 .into{
   z-index: 1;
   position: absolute;
-  top: 15%;
+  top: 150px;
   left:50%; 
   transform:translateX(-50%);
   font-weight: bold;
@@ -156,15 +156,16 @@ html, body {
 .DDANG{
   z-index: 1;
   position:absolute;
-  top: 100%;
-  left: 35%;
+  top: 1200px;
+  left: 50%; 
+  transform:translateX(-50%);
 }
 .DDANG_comment{
   
   z-index: 1;
   position:absolute;
   font-size: 15px;
-  top: 95%;
+  top: 1100px;
   left: 50%; 
   transform:translateX(-50%);
 }
@@ -172,8 +173,8 @@ html, body {
   animation: fadein 3s;
   z-index: 1;
   position: absolute;
-  top: 98%;
-  left: 81%;
+  top: 1100px;
+  left: 1750px;
   box-shadow: 0 1px 5px #000000;
   border-radius: 5px;
   width: 350px;

@@ -3,22 +3,18 @@ import { Link } from 'react-router-dom';
 import YouTube, { Options } from 'react-youtube';
 import './App.css';
 import owo from './img/OWO.png';
-import talk from './img/talks.png';
 class App extends React.Component<{history: any}> {
   render(){
-  const videoID = "QRzM_xBvEjo";
-  const opts: Options = {
-    height: '390',
-    width: '640',
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 0,
-      controls: 0,
-    },
-  };
-  const play={
-      padding: "10px 120px 10px 120px"
-  }
+    const videoID = "QRzM_xBvEjo";
+    const opts: Options = {
+      height: '390',
+      width: '640',
+      playerVars: {
+        // https://developers.google.com/youtube/player_parameters
+        autoplay: 0,
+        controls: 0,
+      },
+    };
     return (
       <div className="Team-owo">
           <div className="menu">
